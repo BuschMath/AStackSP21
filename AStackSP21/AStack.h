@@ -2,6 +2,15 @@
 #define ASTACK_H
 
 #include "ItemType.h"
+#include <iostream>
+
+using namespace std;
+
+class FullStack
+{};
+
+class EmptyStack
+{};
 
 class AStack
 {
